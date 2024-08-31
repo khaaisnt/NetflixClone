@@ -15,6 +15,8 @@ const config: Config = {
       },
       colors: {
         "primaryBlack": "#1A1C22",
+        "RedOne": "#BC0E19",
+        "RedTwo": "#DB202C",
       },
     },
   },
