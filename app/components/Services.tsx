@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import TV from "/public/tv-icon.png";
-import Mobile from "/public/mobile-icon.png";
+import Mobile from "/public/phone-tablet.png";
 import Share from "/public/share-icon.png";
 import Child from "/public/child-icon.png";
 
@@ -9,7 +9,7 @@ export default function Services() {
   return (
     <>
       <div className="py-[180px]">
-        <h1 className="text-center font-bold text-[40px] mb-[24px] text-white mx-[465px]">
+        <h1 className="text-center font-bold text-[40px] mb-[24px] text-white mx-[430px]">
           Layanan Terbaik yang Tidak Mengecewakan
         </h1>
         <div className="flex justify-between gap-x-[40px] text-white">

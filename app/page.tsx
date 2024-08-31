@@ -2,6 +2,9 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
+import Jargon from "./components/Jargon";
+import Popular from "./components/Popular";
+import Subscribe from "./components/Subscribe";
 
 export default function Home() {
   return (
@@ -9,6 +12,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Services />
+      <Jargon />
+      <Popular />
+      <Subscribe />
     </main>
   );
 }
