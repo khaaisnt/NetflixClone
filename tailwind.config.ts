@@ -20,6 +20,7 @@ const config: Config = {
         "gradientGray": "#373A43",
         "RedOne": "#BC0E19",
         "RedTwo": "#DB202C",
+        "formsPurple": "#C8CFEC",
       },
     },
   },

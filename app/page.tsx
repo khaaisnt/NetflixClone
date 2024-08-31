@@ -5,6 +5,8 @@ import Services from "./components/Services";
 import Jargon from "./components/Jargon";
 import Popular from "./components/Popular";
 import Subscribe from "./components/Subscribe";
+import Forms from "./components/Forms";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Jargon />
       <Popular />
       <Subscribe />
+      <Forms />
+      <Footer />
     </main>
   );
 }
