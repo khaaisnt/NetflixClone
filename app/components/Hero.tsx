@@ -17,7 +17,7 @@ export default function Hero() {
             dan gunakan download untuk menonton saat kamu di perjalanan dan
             tidak punya koneksi Internet.
           </p>
-          <button className="py-[9px] px-[28px] font-medium text-[16px] text-white bg-gradient-to-br from-RedOne to-RedTwo shadow-lg shadow-red-800/80 rounded-[15px]">
+          <button className="py-[9px] px-[28px] font-medium text-[16px] text-white bg-gradient-to-br from-RedOne to-RedTwo shadow-lg shadow-red-800/80 rounded-[15px] hover:bg-gradient-to-tl hover:from-RedOne hover:to-RedTwo duration-200">
             Daftar Sekarang
           </button>
         </div>
