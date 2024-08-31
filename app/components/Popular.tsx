@@ -24,7 +24,7 @@ export default function Popular() {
 
         {/* card */}
         <div className="flex justify-between gap-x-[40px] text-white">
-          <div className="p-[24px] bg-secondaryBlack shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
+          <div className="p-[24px] bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
             <Image src={Peaky} alt="peaky blinders" />
             <p className="mt-[16px] font-medium text-[18px] mb-[6px]">
               Peaky Blinders
@@ -35,7 +35,7 @@ export default function Popular() {
               <p className="text-[16px] ml-[8px]">8.8/10 IMDb</p>
             </div>
           </div>
-          <div className="p-[24px] bg-secondaryBlack shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
+          <div className="p-[24px] bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
             <Image src={SpiderMan} alt="peaky blinders" />
             <p className="mt-[16px] font-medium text-[18px] mb-[6px]">
               Spider-Man: No Way Home
@@ -46,7 +46,7 @@ export default function Popular() {
               <p className="text-[16px] ml-[8px]">8.8/10 IMDb</p>
             </div>
           </div>
-          <div className="p-[24px] bg-secondaryBlack shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
+          <div className="p-[24px] bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
             <Image src={Arcane} alt="peaky blinders" />
             <p className="mt-[16px] font-medium text-[18px] mb-[6px]">
               Arcane: League of Legends
@@ -57,7 +57,7 @@ export default function Popular() {
               <p className="text-[16px] ml-[8px]">9.2/10 IMDb</p>
             </div>
           </div>
-          <div className="p-[24px] bg-secondaryBlack shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
+          <div className="p-[24px] bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
             <Image src={Joker} alt="peaky blinders" />
             <p className="mt-[16px] font-medium text-[18px] mb-[6px]">Joker</p>
             <p className="text-[16px] mb-[7px]">Crime, Drama, Thriller</p>

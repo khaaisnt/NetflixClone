@@ -17,6 +17,7 @@ const config: Config = {
         "primaryBlack": "#1A1C22",
         "secondaryBlack": "#1F2127",
         "borderGray": "#FEF4F4",
+        "gradientGray": "#373A43",
         "RedOne": "#BC0E19",
         "RedTwo": "#DB202C",
       },
