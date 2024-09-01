@@ -12,7 +12,7 @@ export default function Subscribe() {
           </h1>
         </div>
         <div className="flex justify-between gap-x-[40px]">
-          <button className="w-[400px] h-[600px] bg-secondaryBlack focus:bg-gradient-to-br focus:from-secondaryBlack focus:via-gradientGray focus:to-secondaryBlack focus:border focus:border-borderGray rounded-[30px] px-[24px] py-[36px]">
+          <button className="w-[400px] h-[600px] bg-secondaryBlack hover:bg-gradient-to-br hover:from-secondaryBlack hover:via-gradientGray hover:scale-105 duration-200 hover:to-secondaryBlack hover:border hover:border-borderGray rounded-[30px] px-[24px] py-[36px]">
             <div className="text-center">
               <p className="font-semibold text-[20px]">Basic</p>
               <p className="text-RedTwo font-semibold my-[24px] text-[32px]">
@@ -63,7 +63,7 @@ export default function Subscribe() {
             </div>
           </button>
           {/* standart */}
-          <button className="w-[400px] h-[600px] bg-secondaryBlack focus:bg-gradient-to-br focus:from-secondaryBlack focus:via-gradientGray focus:to-secondaryBlack focus:border focus:border-borderGray rounded-[30px] px-[24px] py-[36px]">
+          <button className="w-[400px] h-[600px] bg-secondaryBlack hover:bg-gradient-to-br hover:from-secondaryBlack hover:via-gradientGray hover:scale-105 duration-200 hover:to-secondaryBlack hover:border hover:border-borderGray rounded-[30px] px-[24px] py-[36px]">
             <div className="text-center">
               <p className="font-semibold text-[20px]">Standart</p>
               <p className="text-RedTwo font-semibold my-[24px] text-[32px]">
@@ -113,7 +113,7 @@ export default function Subscribe() {
               </button>
             </div>
           </button>
-          <button className="w-[400px] h-[600px] bg-secondaryBlack focus:bg-gradient-to-br focus:from-secondaryBlack focus:via-gradientGray focus:to-secondaryBlack focus:border focus:border-borderGray rounded-[30px] px-[24px] py-[36px]">
+          <button className="w-[400px] h-[600px] bg-secondaryBlack hover:bg-gradient-to-br hover:from-secondaryBlack hover:via-gradientGray hover:scale-105 duration-200 hover:to-secondaryBlack hover:border hover:border-borderGray rounded-[30px] px-[24px] py-[36px]">
             <div className="text-center">
               <p className="font-semibold text-[20px]">Premium</p>
               <p className="text-RedTwo font-semibold my-[24px] text-[32px]">
