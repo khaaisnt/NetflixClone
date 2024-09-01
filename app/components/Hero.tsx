@@ -1,6 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import SpiderMan from "/public/Img-hero.png";
+import { Volkhov } from "next/font/google";
+
+// Mengimpor dan mengkonfigurasi font Volkhov
+const volkhov = Volkhov({ weight: ["400"], subsets: ["latin"] });
 
 export default function Hero() {
   return (
@@ -8,7 +12,8 @@ export default function Hero() {
       <div className="flex justify-between items-center gap-[40px] pt-[40px]">
         {/* text head */}
         <div className="text-white max-w-[640px]">
-          <h1 className="text-[56px] font-bold">
+          <h1 className={`text-[56px] font-bold ${volkhov.className}`}>
+            {/* Menggunakan Volkhov hanya pada h1 */}
             Nikmati Tontonan Dimana Saja, dan Kapan Saja
           </h1>
           <p className="text-[16px] font-light mt-[12px] mb-[24px] tracking-wider">

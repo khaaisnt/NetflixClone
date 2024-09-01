@@ -75,10 +75,16 @@ export default function Footer() {
             </h5>
             <div className="grid grid-rows-2">
               <div className="grid grid-cols-2">
-                <a href="">
+                <a
+                  href="https://apps.apple.com/us/app/netflix/id363590051"
+                  target="_blank"
+                >
                   <Image src={AppStore} alt="appstore" className="mr-[16px]" />
                 </a>
-                <a href="">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.netflix.mediaclient&hl=id"
+                  target="_blank"
+                >
                   <Image src={PlayStore} alt="playstore" />
                 </a>
               </div>

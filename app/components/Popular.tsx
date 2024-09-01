@@ -5,6 +5,10 @@ import Peaky from "/public/peaky.png";
 import SpiderMan from "/public/spiderman-way.png";
 import Arcane from "/public/arcane.png";
 import Joker from "/public/joker.png";
+import { Volkhov } from "next/font/google";
+
+// Mengimpor dan mengkonfigurasi font Volkhov
+const volkhov = Volkhov({ weight: ["400"], subsets: ["latin"] });
 
 export default function Popular() {
   return (
@@ -12,8 +16,12 @@ export default function Popular() {
       <div className="pb-[180px]">
         <div className="flex justify-between items-end text-white mb-[32px]">
           <div>
-            <h1 className="font-bold text-[40px]">Film dan Acara TV</h1>
-            <h1 className="font-bold text-[40px]">Populer Bulan Ini</h1>
+            <h1 className={`font-bold text-[40px] ${volkhov.className}`}>
+              Film dan Acara TV
+            </h1>
+            <h1 className={`font-bold text-[40px] ${volkhov.className}`}>
+              Populer Bulan Ini
+            </h1>
           </div>
           <div>
             <button className="py-[9px] px-[28px] font-medium text-[16px] text-white bg-gradient-to-br from-RedOne to-RedTwo shadow-lg shadow-red-800/80 rounded-[15px] hover:bg-gradient-to-tl hover:from-RedOne hover:to-RedTwo duration-200">

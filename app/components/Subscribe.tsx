@@ -1,13 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import Check from "/public/cheklist.png";
+import { Volkhov } from "next/font/google";
+
+// Mengimpor dan mengkonfigurasi font Volkhov
+const volkhov = Volkhov({ weight: ["400"], subsets: ["latin"] });
 
 export default function Subscribe() {
   return (
     <>
       <div className="text-white pb-[180px]">
         <div className="mx-[430px] text-center mb-[24px]">
-          <h1 className="font-bold text-[40px]">
+          <h1 className={`font-bold text-[40px] ${volkhov.className}`}>
             Pilih Paket yang Cocok Untukmu
           </h1>
         </div>

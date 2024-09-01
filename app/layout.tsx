@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google"; // Import Montserrat instead of Inter
+import { Montserrat, Volkhov } from "next/font/google"; // Import both Montserrat and Volkhov
 import "./globals.css";
-const montserrat = Montserrat({ subsets: ["latin"] }); // Use Montserrat
+
+const montserrat = Montserrat({ subsets: ["latin"] }); // Configure Montserrat
+const volkhov = Volkhov({ weight: ["400"], subsets: ["latin"] }); // Configure Volkhov with weight property
 
 export const metadata: Metadata = {
   title: "Netflix Clone By Khaa",
@@ -16,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserrat.className}>{children}</body>{" "}
-      {/* Apply Montserrat font */}
+      {/* Apply Montserrat as the default font */}
     </html>
   );
 }
