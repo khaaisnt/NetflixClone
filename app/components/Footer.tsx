@@ -124,11 +124,11 @@ export default function Footer() {
         <div className="flex justify-between py-[40px] font-light text-[14px] text-white">
           <p>© 2024 Hak Cipta Terpelihara oleh Netflix Indonesia</p>
           <div className="flex">
-            <a href="">
-              <p className="mr-[24px]">Persyaratan Layanan</p>
+            <a href="" className="mr-[24px] hover:text-slate-300 duration-200">
+              Persyaratan Layanan
             </a>
-            <a href="">
-              <p>Kebijakan Privasi</p>
+            <a href="" className="hover:text-slate-300 duration-200">
+              Kebijakan Privasi
             </a>
           </div>
         </div>
