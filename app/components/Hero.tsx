@@ -9,14 +9,13 @@ const volkhov = Volkhov({ weight: ["400"], subsets: ["latin"] });
 export default function Hero() {
   return (
     <>
-      <div className="flex justify-between items-center gap-[40px] pt-[40px]">
+      <div className="md:flex md:justify-between items-center gap-[40px] pt-[40px]">
         {/* text head */}
         <div className="text-white max-w-[640px]">
-          <h1 className={`text-[56px] font-bold ${volkhov.className}`}>
-            {/* Menggunakan Volkhov hanya pada h1 */}
+          <h1 className={`md:text-[56px] text-[32px] font-bold ${volkhov.className}`}>
             Nikmati Tontonan Dimana Saja, dan Kapan Saja
           </h1>
-          <p className="text-[16px] font-light mt-[12px] mb-[24px] tracking-wider">
+          <p className="md:text-[16px] text-[12px] font-light mt-[12px] mb-[24px] tracking-wider">
             Tonton apa saja secara online dari komputer pribadi atau di
             perangkat yang terhubung ke Internet dan mendukung aplikasi Netflix,
             dan gunakan download untuk menonton saat kamu di perjalanan dan
@@ -27,7 +26,7 @@ export default function Hero() {
           </button>
         </div>
         {/* hero image */}
-        <div className="max-w-[617px]">
+        <div className="max-w-[617px] hidden md:block">
           <Image src={SpiderMan} alt="SpiderMan Image" />
         </div>
       </div>

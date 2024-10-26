@@ -13,27 +13,27 @@ const volkhov = Volkhov({ weight: ["400"], subsets: ["latin"] });
 export default function Popular() {
   return (
     <>
-      <div className="pb-[180px]">
-        <div className="flex justify-between items-end text-white mb-[32px]">
-          <div>
-            <h1 className={`font-bold text-[40px] ${volkhov.className}`}>
+      <div className="pb-[60px] md:pb-[180px]">
+        <div className="md:flex justify-between items-end text-white mb-[32px]">
+          <div className="mb-5 md:mb-0 text-center md:text-start">
+            <h1 className={`font-bold text-[28px] md:text-[40px] ${volkhov.className}`}>
               Film dan Acara TV
             </h1>
-            <h1 className={`font-bold text-[40px] ${volkhov.className}`}>
+            <h1 className={`font-bold text-[28px] md:text-[40px] ${volkhov.className}`}>
               Populer Bulan Ini
             </h1>
           </div>
           <div>
-            <button className="py-[9px] px-[28px] font-medium text-[16px] text-white bg-gradient-to-br from-RedOne to-RedTwo shadow-lg shadow-red-800/80 rounded-[15px] hover:bg-gradient-to-tl hover:from-RedOne hover:to-RedTwo duration-200">
+            <button className="py-[9px] w-full px-[28px] font-medium text-[16px] text-white bg-gradient-to-br from-RedOne to-RedTwo shadow-lg shadow-red-800/80 rounded-[15px] hover:bg-gradient-to-tl hover:from-RedOne hover:to-RedTwo duration-200">
               Lihat Semua
             </button>
           </div>
         </div>
 
         {/* card */}
-        <div className="flex justify-between gap-x-[40px] text-white">
+        <div className="grid-cols-1 space-y-10 md:space-x-0 md:flex justify-between gap-x-[40px] text-white">
           <div className="p-[24px] bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
-            <Image src={Peaky} alt="peaky blinders" />
+            <Image src={Peaky} className="w-full" alt="peaky blinders" />
             <p className="mt-[16px] font-medium text-[18px] mb-[6px]">
               Peaky Blinders
             </p>
@@ -44,7 +44,7 @@ export default function Popular() {
             </div>
           </div>
           <div className="p-[24px] bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
-            <Image src={SpiderMan} alt="peaky blinders" />
+            <Image src={SpiderMan} className="w-full" alt="peaky blinders" />
             <p className="mt-[16px] font-medium text-[18px] mb-[6px]">
               Spider-Man: No Way Home
             </p>
@@ -55,7 +55,7 @@ export default function Popular() {
             </div>
           </div>
           <div className="p-[24px] bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
-            <Image src={Arcane} alt="peaky blinders" />
+            <Image src={Arcane} className="w-full" alt="peaky blinders" />
             <p className="mt-[16px] font-medium text-[18px] mb-[6px]">
               Arcane: League of Legends
             </p>
@@ -66,7 +66,7 @@ export default function Popular() {
             </div>
           </div>
           <div className="p-[24px] bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
-            <Image src={Joker} alt="peaky blinders" />
+            <Image src={Joker} className="w-full" alt="peaky blinders" />
             <p className="mt-[16px] font-medium text-[18px] mb-[6px]">Joker</p>
             <p className="text-[16px] mb-[7px]">Crime, Drama, Thriller</p>
             <div className="flex items-center">

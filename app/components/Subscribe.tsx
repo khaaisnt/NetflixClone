@@ -9,14 +9,14 @@ const volkhov = Volkhov({ weight: ["400"], subsets: ["latin"] });
 export default function Subscribe() {
   return (
     <>
-      <div className="text-white pb-[180px]">
-        <div className="mx-[430px] text-center mb-[24px]">
-          <h1 className={`font-bold text-[40px] ${volkhov.className}`}>
+      <div className="text-white pb-[60px] md:pb-[180px]">
+        <div className="md:mx-[430px] mx-auto text-center mb-[24px]">
+          <h1 className={`font-bold text-[28px] md:text-[40px] ${volkhov.className}`}>
             Pilih Paket yang Cocok Untukmu
           </h1>
         </div>
-        <div className="flex justify-between gap-x-[40px]">
-          <button className="w-[400px] h-[600px] bg-secondaryBlack hover:bg-gradient-to-br hover:from-secondaryBlack hover:via-gradientGray hover:scale-105 duration-200 hover:to-secondaryBlack hover:border hover:border-borderGray rounded-[30px] px-[24px] py-[36px]">
+        <div className="md:flex grid-cols-1 space-y-10 md:space-y-0 justify-center md:justify-between gap-x-[40px]">
+          <button className="w-full h-[600px] bg-secondaryBlack hover:bg-gradient-to-br hover:from-secondaryBlack hover:via-gradientGray hover:scale-105 duration-200 hover:to-secondaryBlack hover:border hover:border-borderGray rounded-[30px] px-[24px] py-[36px]">
             <div className="text-center">
               <p className="font-semibold text-[20px]">Basic</p>
               <p className="text-RedTwo font-semibold my-[24px] text-[32px]">
@@ -67,7 +67,7 @@ export default function Subscribe() {
             </div>
           </button>
           {/* standart */}
-          <button className="w-[400px] h-[600px] bg-secondaryBlack hover:bg-gradient-to-br hover:from-secondaryBlack hover:via-gradientGray hover:scale-105 duration-200 hover:to-secondaryBlack hover:border hover:border-borderGray rounded-[30px] px-[24px] py-[36px]">
+          <button className="w-full h-[600px] bg-secondaryBlack hover:bg-gradient-to-br hover:from-secondaryBlack hover:via-gradientGray hover:scale-105 duration-200 hover:to-secondaryBlack hover:border hover:border-borderGray rounded-[30px] px-[24px] py-[36px]">
             <div className="text-center">
               <p className="font-semibold text-[20px]">Standart</p>
               <p className="text-RedTwo font-semibold my-[24px] text-[32px]">
@@ -117,7 +117,7 @@ export default function Subscribe() {
               </button>
             </div>
           </button>
-          <button className="w-[400px] h-[600px] bg-secondaryBlack hover:bg-gradient-to-br hover:from-secondaryBlack hover:via-gradientGray hover:scale-105 duration-200 hover:to-secondaryBlack hover:border hover:border-borderGray rounded-[30px] px-[24px] py-[36px]">
+          <button className="w-full h-[600px] bg-secondaryBlack hover:bg-gradient-to-br hover:from-secondaryBlack hover:via-gradientGray hover:scale-105 duration-200 hover:to-secondaryBlack hover:border hover:border-borderGray rounded-[30px] px-[24px] py-[36px]">
             <div className="text-center">
               <p className="font-semibold text-[20px]">Premium</p>
               <p className="text-RedTwo font-semibold my-[24px] text-[32px]">

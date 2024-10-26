@@ -12,14 +12,14 @@ const volkhov = Volkhov({ weight: ["400"], subsets: ["latin"] });
 export default function Services() {
   return (
     <>
-      <div className="py-[180px]">
+      <div className="py-[50px] md:py-[180px]">
         <h1
-          className={`text-center font-bold text-[40px] mb-[24px] text-white mx-[430px] ${volkhov.className}`}
+          className={`text-center font-bold text-[28px] md:text-[40px] mb-[20px] md:mb-[24px] text-white mx-0 md:mx-[430px] ${volkhov.className}`}
         >
           Layanan Terbaik yang Tidak Mengecewakan
         </h1>
-        <div className="flex justify-between gap-x-[40px] text-white">
-          <div className="w-[290px] h-[288px] bg-secondaryBlack p-[24px] rounded-[30px] border-slate-300">
+        <div className="md:flex md:space-y-0 justify-center grid-cols-1 space-y-10 md:justify-between gap-x-[40px] text-white items-center">
+          <div className="w-full md:w-[290px] h-[288px] bg-secondaryBlack p-[24px] rounded-[30px] border-slate-300 mx-auto">
             <Image src={TV} alt="tv" />
             <p className="mt-[20px] mb-[8px] font-medium text-[18px]">
               Tonton langsung di TV
@@ -29,7 +29,7 @@ export default function Services() {
               pemutar Blu-ray, dan banyak lagi
             </p>
           </div>
-          <div className="w-[290px] h-[288px] bg-secondaryBlack p-[24px] rounded-[30px] border-slate-300">
+          <div className="w-full md:w-[290px] h-[288px] bg-secondaryBlack p-[24px] rounded-[30px] border-slate-300 mx-auto">
             <Image src={Mobile} alt="tv" />
             <p className="mt-[20px] mb-[8px] font-medium text-[18px]">
               Download untuk offline
@@ -39,7 +39,7 @@ export default function Services() {
               ditonton
             </p>
           </div>
-          <div className="w-[290px] h-[288px] bg-secondaryBlack p-[24px] rounded-[30px] border-slate-300">
+          <div className="w-full md:w-[290px] h-[288px] bg-secondaryBlack p-[24px] rounded-[30px] border-slate-300 mx-auto">
             <Image src={Share} alt="tv" />
             <p className="mt-[20px] mb-[8px] font-medium text-[18px]">
               Akses berbagai perangkat
@@ -49,7 +49,7 @@ export default function Services() {
               laptop, dan TV-mu
             </p>
           </div>
-          <div className="w-[290px] h-[288px] bg-secondaryBlack p-[24px] rounded-[30px] border-slate-300">
+          <div className="w-full md:w-[290px] h-[288px] bg-secondaryBlack p-[24px] rounded-[30px] border-slate-300 mx-auto">
             <Image src={Child} alt="tv" />
             <p className="mt-[20px] mb-[8px] font-medium text-[18px]">
               Buat profil untuk anak
