@@ -1,6 +1,12 @@
+"use client";
+
 import React from "react";
 
 export default function Forms() {
+  const handleSubscribe = () => {
+    alert("Terima kasih telah berlangganan!");
+  };
+
   return (
     <>
       <div className="pb-[60px] md:pb-[180px]">
@@ -13,9 +19,12 @@ export default function Forms() {
             <input
               type="text"
               placeholder="Enter Your Email"
-              className="w-full md:w-[345px] mb-4 md:mb-0 h-[48px] bg-formsInputPurple text-[16px] text-white px-[24px] rounded-[15px] focus:outline-none"
+              className="w-full md:w-[345px] mb-4 md:mb-0 h-[48px] bg-formsInputPurple text-[16px] px-[24px] rounded-[15px] focus:ring-2 focus:ring-red-500 focus:outline-none"
             />
-            <button className="py-[9px] w-full md:max-w-[180px] px-[28px] font-medium text-[16px] text-white bg-gradient-to-br from-RedOne to-RedTwo shadow-lg shadow-red-800/80 rounded-[15px] hover:bg-gradient-to-tl hover:from-RedOne hover:to-RedTwo duration-200">
+            <button
+              onClick={handleSubscribe}
+              className="py-[9px] w-full md:max-w-[180px] px-[28px] font-medium text-[16px] text-white bg-gradient-to-br from-RedOne to-RedTwo shadow-lg shadow-red-800/80 rounded-[15px] hover:bg-gradient-to-tl hover:from-RedOne hover:to-RedTwo duration-200"
+            >
               Berlangganan
             </button>
           </div>

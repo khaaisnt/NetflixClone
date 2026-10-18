@@ -16,10 +16,14 @@ export default function Popular() {
       <div className="pb-[60px] md:pb-[180px]">
         <div className="md:flex justify-between items-end text-white mb-[32px]">
           <div className="mb-5 md:mb-0 text-center md:text-start">
-            <h1 className={`font-bold text-[28px] md:text-[40px] ${volkhov.className}`}>
+            <h1
+              className={`font-bold text-[28px] md:text-[40px] ${volkhov.className}`}
+            >
               Film dan Acara TV
             </h1>
-            <h1 className={`font-bold text-[28px] md:text-[40px] ${volkhov.className}`}>
+            <h1
+              className={`font-bold text-[28px] md:text-[40px] ${volkhov.className}`}
+            >
               Populer Bulan Ini
             </h1>
           </div>
@@ -31,8 +35,8 @@ export default function Popular() {
         </div>
 
         {/* card */}
-        <div className="grid-cols-1 space-y-10 md:space-x-0 md:flex justify-between gap-x-[40px] text-white">
-          <div className="p-[24px] bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
+        <div className="grid-cols-1 md:space-x-0 md:flex justify-between gap-x-[40px] text-white">
+          <div className="p-[24px] w-full bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
             <Image src={Peaky} className="w-full" alt="peaky blinders" />
             <p className="mt-[16px] font-medium text-[18px] mb-[6px]">
               Peaky Blinders
@@ -43,8 +47,8 @@ export default function Popular() {
               <p className="text-[16px] ml-[8px]">8.8/10 IMDb</p>
             </div>
           </div>
-          <div className="p-[24px] bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
-            <Image src={SpiderMan} className="w-full" alt="peaky blinders" />
+          <div className="p-[24px] w-full bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
+            <Image src={SpiderMan} className="w-full" alt="spider man" />
             <p className="mt-[16px] font-medium text-[18px] mb-[6px]">
               Spider-Man: No Way Home
             </p>
@@ -54,8 +58,8 @@ export default function Popular() {
               <p className="text-[16px] ml-[8px]">8.8/10 IMDb</p>
             </div>
           </div>
-          <div className="p-[24px] bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
-            <Image src={Arcane} className="w-full" alt="peaky blinders" />
+          <div className="p-[24px] w-full bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
+            <Image src={Arcane} className="w-full" alt="arcane" />
             <p className="mt-[16px] font-medium text-[18px] mb-[6px]">
               Arcane: League of Legends
             </p>
@@ -65,8 +69,8 @@ export default function Popular() {
               <p className="text-[16px] ml-[8px]">9.2/10 IMDb</p>
             </div>
           </div>
-          <div className="p-[24px] bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
-            <Image src={Joker} className="w-full" alt="peaky blinders" />
+          <div className="p-[24px] w-full bg-secondaryBlack duration-200 shadow hover:shadow-slate-600/80 hover:shadow-lg border border-borderGray rounded-[30px]">
+            <Image src={Joker} className="w-full" alt="joker" />
             <p className="mt-[16px] font-medium text-[18px] mb-[6px]">Joker</p>
             <p className="text-[16px] mb-[7px]">Crime, Drama, Thriller</p>
             <div className="flex items-center">
